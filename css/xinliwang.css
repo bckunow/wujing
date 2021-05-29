@@ -13,7 +13,7 @@
   margin-top: 20px; }
   .web section .xinlizixun .top_left {
     padding-top: 14px;
-    padding-left: 24px;
+    padding-left: 12px;
     display: inline-block; }
     .web section .xinlizixun .top_left .blue {
       height: 18px;
@@ -21,8 +21,7 @@
       background: #2071c2;
       display: inline-block; }
     .web section .xinlizixun .top_left span {
-      vertical-align: top;
-      font-weight: bold; }
+      vertical-align: top; }
   .web section .xinlizixun .top_right {
     display: inline-block;
     margin-right: 20px;

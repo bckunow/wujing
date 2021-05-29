@@ -49,8 +49,6 @@ section {
       display: inline-block; }
     section .sy_top .sy_top_left:hover {
       animation-name: shake; }
-  section a:hover {
-    color: red !important; }
   section .tzgg .tzgg_left {
     width: 580px;
     display: inline-block;

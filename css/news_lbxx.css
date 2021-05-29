@@ -12,6 +12,8 @@
     display: inline-block;
     vertical-align: middle;
     margin-top: 12px; }
+  .header_box .header_xinwen a:hover {
+    color: #D60000; }
   .header_box .denglu_logo {
     display: inline-block;
     vertical-align: middle;
@@ -20,7 +22,7 @@
     width: 13px; }
   .header_box .header_denglu a {
     color: #888888; }
-  .header_box .header_xinwen {
+  .header_box .header_xinwen a {
     padding-right: 750px;
     color: #888888; }
   .header_box .header_swsy a {
@@ -45,7 +47,8 @@
 
 .daohang_box .daohang {
   width: 1186px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: 100%; }
 
 .dalogo_box {
   font-size: 0; }
@@ -56,10 +59,11 @@
 .daohang_box {
   width: 100%;
   background: #c10000;
-  padding: 16px 0; }
+  padding: 16px 0;
+  height: 100px; }
   .daohang_box .daohang_news {
     display: inline-block;
-    width: 167px;
+    width: 115px;
     height: 56px;
     text-align: left;
     vertical-align: top; }
@@ -67,11 +71,13 @@
     display: inline-block;
     padding-right: 10px;
     vertical-align: top; }
-  .daohang_box .daohang_news_span span {
+  .daohang_box .daohang_news_span a {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
+  .daohang_box .daohang_news_span a:hover {
+    color: deepskyblue; }
   .daohang_box .daohang_news li {
     display: inline-block; }
   .daohang_box .daohang_news li a {
@@ -85,7 +91,7 @@
     opacity: 0.5;
     margin: 0 6px; }
   .daohang_box .daohang_news a:hover {
-    color: skyblue; }
+    color: deepskyblue; }
   .daohang_box .daohang_zhengg {
     display: inline-block;
     width: 110px;
@@ -97,18 +103,20 @@
     padding-right: 13px;
     vertical-align: top;
     margin-left: 14px; }
-  .daohang_box .daohang_zhengg_span span {
+  .daohang_box .daohang_zhengg_span a {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
+  .daohang_box .daohang_zhengg_span a:hover {
+    color: deepskyblue; }
   .daohang_box .daohang_zhengg li {
     display: inline-block; }
   .daohang_box .daohang_zhengg li a {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_zhengg a:hover {
-    color: skyblue; }
+    color: deepskyblue; }
   .daohang_box .daohang_yingyuan {
     display: inline-block;
     width: 110px;
@@ -122,18 +130,20 @@
     padding-right: 13px;
     vertical-align: top;
     margin-left: 14px; }
-  .daohang_box .daohang_yingyuan_span span {
+  .daohang_box .daohang_yingyuan_span a {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
+  .daohang_box .daohang_yingyuan_span a:hover {
+    color: deepskyblue; }
   .daohang_box .daohang_yingyuan li {
     display: inline-block; }
   .daohang_box .daohang_yingyuan li a {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_yingyuan a:hover {
-    color: skyblue; }
+    color: deepskyblue; }
   .daohang_box .daohang_yinyue {
     display: inline-block;
     width: 100px;
@@ -145,18 +155,20 @@
     padding-right: 13px;
     vertical-align: top;
     margin-left: 14px; }
-  .daohang_box .daohang_yinyue_span span {
+  .daohang_box .daohang_yinyue_span a {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
+  .daohang_box .daohang_yinyue_span a:hover {
+    color: deepskyblue; }
   .daohang_box .daohang_yinyue li {
     display: inline-block; }
   .daohang_box .daohang_yinyue li a {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_yinyue a:hover {
-    color: skyblue; }
+    color: deepskyblue; }
   .daohang_box .daohang_xinli {
     display: inline-block;
     width: 120px;
@@ -168,25 +180,27 @@
     padding-right: 13px;
     vertical-align: top;
     margin-left: 14px; }
-  .daohang_box .daohang_xinli_span span {
+  .daohang_box .daohang_xinli_span a {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
+  .daohang_box .daohang_xinli_span a:hover {
+    color: deepskyblue; }
   .daohang_box .daohang_xinli li {
     display: inline-block; }
   .daohang_box .daohang_xinli li a {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_xinli a:hover {
-    color: skyblue; }
+    color: deepskyblue; }
   .daohang_box .daohang_fengcai li:first-of-type {
     text-align: left;
     vertical-align: top;
     padding-right: 14px; }
   .daohang_box .daohang_fengcai {
     display: inline-block;
-    width: 147px;
+    width: 115px;
     height: 56px;
     text-align: left;
     vertical-align: top;
@@ -197,7 +211,7 @@
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_fengcai a:hover {
-    color: skyblue; }
+    color: deepskyblue; }
 
 .neirong_time {
   border: 1px solid #DDDDDD;
@@ -402,6 +416,8 @@ footer {
     display: inline-block;
     vertical-align: middle;
     margin-top: 12px; }
+  .header_box .header_xinwen a:hover {
+    color: #D60000; }
   .header_box .denglu_logo {
     display: inline-block;
     vertical-align: middle;
@@ -410,7 +426,7 @@ footer {
     width: 13px; }
   .header_box .header_denglu a {
     color: #888888; }
-  .header_box .header_xinwen {
+  .header_box .header_xinwen a {
     padding-right: 750px;
     color: #888888; }
   .header_box .header_swsy a {
@@ -435,7 +451,8 @@ footer {
 
 .daohang_box .daohang {
   width: 1186px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: 100%; }
 
 .dalogo_box {
   font-size: 0; }
@@ -446,10 +463,11 @@ footer {
 .daohang_box {
   width: 100%;
   background: #c10000;
-  padding: 16px 0; }
+  padding: 16px 0;
+  height: 100px; }
   .daohang_box .daohang_news {
     display: inline-block;
-    width: 167px;
+    width: 115px;
     height: 56px;
     text-align: left;
     vertical-align: top; }
@@ -457,11 +475,13 @@ footer {
     display: inline-block;
     padding-right: 10px;
     vertical-align: top; }
-  .daohang_box .daohang_news_span span {
+  .daohang_box .daohang_news_span a {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
+  .daohang_box .daohang_news_span a:hover {
+    color: deepskyblue; }
   .daohang_box .daohang_news li {
     display: inline-block; }
   .daohang_box .daohang_news li a {
@@ -475,7 +495,7 @@ footer {
     opacity: 0.5;
     margin: 0 6px; }
   .daohang_box .daohang_news a:hover {
-    color: skyblue; }
+    color: deepskyblue; }
   .daohang_box .daohang_zhengg {
     display: inline-block;
     width: 110px;
@@ -487,18 +507,20 @@ footer {
     padding-right: 13px;
     vertical-align: top;
     margin-left: 14px; }
-  .daohang_box .daohang_zhengg_span span {
+  .daohang_box .daohang_zhengg_span a {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
+  .daohang_box .daohang_zhengg_span a:hover {
+    color: deepskyblue; }
   .daohang_box .daohang_zhengg li {
     display: inline-block; }
   .daohang_box .daohang_zhengg li a {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_zhengg a:hover {
-    color: skyblue; }
+    color: deepskyblue; }
   .daohang_box .daohang_yingyuan {
     display: inline-block;
     width: 110px;
@@ -512,18 +534,20 @@ footer {
     padding-right: 13px;
     vertical-align: top;
     margin-left: 14px; }
-  .daohang_box .daohang_yingyuan_span span {
+  .daohang_box .daohang_yingyuan_span a {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
+  .daohang_box .daohang_yingyuan_span a:hover {
+    color: deepskyblue; }
   .daohang_box .daohang_yingyuan li {
     display: inline-block; }
   .daohang_box .daohang_yingyuan li a {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_yingyuan a:hover {
-    color: skyblue; }
+    color: deepskyblue; }
   .daohang_box .daohang_yinyue {
     display: inline-block;
     width: 100px;
@@ -535,18 +559,20 @@ footer {
     padding-right: 13px;
     vertical-align: top;
     margin-left: 14px; }
-  .daohang_box .daohang_yinyue_span span {
+  .daohang_box .daohang_yinyue_span a {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
+  .daohang_box .daohang_yinyue_span a:hover {
+    color: deepskyblue; }
   .daohang_box .daohang_yinyue li {
     display: inline-block; }
   .daohang_box .daohang_yinyue li a {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_yinyue a:hover {
-    color: skyblue; }
+    color: deepskyblue; }
   .daohang_box .daohang_xinli {
     display: inline-block;
     width: 120px;
@@ -558,25 +584,27 @@ footer {
     padding-right: 13px;
     vertical-align: top;
     margin-left: 14px; }
-  .daohang_box .daohang_xinli_span span {
+  .daohang_box .daohang_xinli_span a {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
+  .daohang_box .daohang_xinli_span a:hover {
+    color: deepskyblue; }
   .daohang_box .daohang_xinli li {
     display: inline-block; }
   .daohang_box .daohang_xinli li a {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_xinli a:hover {
-    color: skyblue; }
+    color: deepskyblue; }
   .daohang_box .daohang_fengcai li:first-of-type {
     text-align: left;
     vertical-align: top;
     padding-right: 14px; }
   .daohang_box .daohang_fengcai {
     display: inline-block;
-    width: 147px;
+    width: 115px;
     height: 56px;
     text-align: left;
     vertical-align: top;
@@ -587,7 +615,7 @@ footer {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_fengcai a:hover {
-    color: skyblue; }
+    color: deepskyblue; }
 
 .neirong_time {
   border: 1px solid #DDDDDD;
