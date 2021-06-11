@@ -120,6 +120,9 @@
 .szgwsy {
   display: inline-block;
   color: white; }
+  .szgwsy a {
+    color: white;
+    font-size: 14px; }
 
 footer {
   background: white; }

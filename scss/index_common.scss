@@ -14,9 +14,6 @@
         vertical-align: middle;
         margin-top: 12px;
     }
-    .header_xinwen a:hover{
-        color: #D60000;
-    }
     .denglu_logo{
         display: inline-block;
         vertical-align: middle;
@@ -28,7 +25,7 @@
     .header_denglu a{
         color: #888888;
     }
-    .header_xinwen a{
+    .header_xinwen {
         padding-right: 750px;
         color: #888888;
     }
@@ -89,21 +86,20 @@
         padding-right: 10px;
         vertical-align: top;
     }
-    .daohang_news_span a{
+    .daohang_news_span span{
         display: inline-block;
         font-size: 12px;
         color: white;
         font-weight: bold;       
     }
-    .daohang_news_span a:hover{
-        color: deepskyblue;
-    }
     .daohang_news li{
-        display: inline-block;   
+        display: inline-block;
+        
     }
     .daohang_news li a{
         font-size: 12px;
         color: white;
+        
     }
     .nav_shuxian{
         display: inline-block;
@@ -114,7 +110,7 @@
         margin:0 6px; 
     }
     .daohang_news a:hover{
-        color: deepskyblue;
+        color: skyblue;
     }
 //------------------政工-----------------------    
     .daohang_zhengg{
@@ -130,14 +126,11 @@
         vertical-align: top;
         margin-left: 14px;
     }
-    .daohang_zhengg_span a{
+    .daohang_zhengg_span span{
         display: inline-block;
         font-size: 12px;
         color: white;
         font-weight: bold; 
-    }
-    .daohang_zhengg_span a:hover{
-        color: deepskyblue;
     }
     .daohang_zhengg li{
         display: inline-block;    
@@ -147,7 +140,7 @@
         color: white;   
     } 
     .daohang_zhengg a:hover{
-        color: deepskyblue;
+        color: skyblue;
     }
  //-----------------------------影院--------------------
   .daohang_yingyuan{
@@ -166,14 +159,11 @@
         vertical-align: top;
         margin-left: 14px;
     }
-    .daohang_yingyuan_span a{
+    .daohang_yingyuan_span span{
         display: inline-block;
         font-size: 12px;
         color: white;
         font-weight: bold; 
-    }
-    .daohang_yingyuan_span a:hover{
-        color: deepskyblue;
     }
     .daohang_yingyuan li{
         display: inline-block;    
@@ -183,7 +173,7 @@
         color: white;   
     } 
     .daohang_yingyuan a:hover{
-        color: deepskyblue;
+        color: skyblue;
     }
 //--------------------------音乐---------------------    
 .daohang_yinyue{
@@ -199,14 +189,11 @@
         vertical-align: top;
         margin-left: 14px;
     }
-    .daohang_yinyue_span a{
+    .daohang_yinyue_span span{
         display: inline-block;
         font-size: 12px;
         color: white;
         font-weight: bold; 
-    }
-    .daohang_yinyue_span a:hover{
-        color: deepskyblue;
     }
     .daohang_yinyue li{
         display: inline-block;    
@@ -216,7 +203,7 @@
         color: white;   
     } 
     .daohang_yinyue a:hover{
-        color: deepskyblue;
+        color: skyblue;
     }
 //-------------------------心理服务---------------------     
 .daohang_xinli{
@@ -232,14 +219,11 @@
         vertical-align: top;
         margin-left: 14px;
     }
-    .daohang_xinli_span a{
+    .daohang_xinli_span span{
         display: inline-block;
         font-size: 12px;
         color: white;
         font-weight: bold; 
-    }
-    .daohang_xinli_span a:hover{
-        color: deepskyblue;
     }
     .daohang_xinli li{
         display: inline-block;    
@@ -249,7 +233,7 @@
         color: white;   
     } 
     .daohang_xinli a:hover{
-        color: deepskyblue;
+        color: skyblue;
     }
 //------------------------------警队风采------------------
 .daohang_fengcai li:first-of-type{ 
@@ -273,7 +257,7 @@
         color: white;   
     } 
     .daohang_fengcai a:hover{
-        color: deepskyblue;
+        color: skyblue;
     }
 }
 //----------------------------新闻时间--------------------

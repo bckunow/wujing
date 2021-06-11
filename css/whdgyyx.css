@@ -17,36 +17,39 @@
 
 .whdgyyx_shangbian_huise {
   width: 1200px;
-  height: 100px;
   margin: 0 auto;
   background: #d4d2e0; }
-  .whdgyyx_shangbian_huise p:nth-child(1) {
-    line-height: 100px;
-    font-size: 28px;
-    font-family: "微软雅黑";
-    color: #cf1f3f; }
-  .whdgyyx_shangbian_huise p:nth-child(7) {
-    line-height: 100px;
-    font-family: "微软雅黑";
-    background: red;
-    padding: 0 30px; }
-    .whdgyyx_shangbian_huise p:nth-child(7) a {
-      color: white; }
   .whdgyyx_shangbian_huise p {
+    display: inline-block; }
+  .whdgyyx_shangbian_huise .whdgy_wz {
+    font-family: "微软雅黑";
+    color: red;
+    font-size: 28px; }
+  .whdgyyx_shangbian_huise .whdgy_daohang_box {
     display: inline-block;
-    margin: 0 20px;
-    line-height: 100px;
+    line-height: 80px;
     font-family: "微软雅黑";
     padding: 0 30px; }
-    .whdgyyx_shangbian_huise p a {
+    .whdgyyx_shangbian_huise .whdgy_daohang_box p {
+      width: 100px;
+      height: 80px;
+      line-height: 80px;
+      text-align: center; }
+      .whdgyyx_shangbian_huise .whdgy_daohang_box p:hover {
+        background: red; }
+        .whdgyyx_shangbian_huise .whdgy_daohang_box p:hover a {
+          color: white; }
+    .whdgyyx_shangbian_huise .whdgy_daohang_box a {
       color: black; }
-      .whdgyyx_shangbian_huise p a:hover {
+      .whdgyyx_shangbian_huise .whdgy_daohang_box a:hover {
         color: white;
         background: red; }
 
 .sysp_box {
   display: inline-block;
   margin-left: 80px; }
+  .sysp_box p a {
+    color: black; }
 
 .quanbuyouxi_box {
   width: 1200px;

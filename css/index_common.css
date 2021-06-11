@@ -12,8 +12,6 @@
     display: inline-block;
     vertical-align: middle;
     margin-top: 12px; }
-  .header_box .header_xinwen a:hover {
-    color: #D60000; }
   .header_box .denglu_logo {
     display: inline-block;
     vertical-align: middle;
@@ -22,7 +20,7 @@
     width: 13px; }
   .header_box .header_denglu a {
     color: #888888; }
-  .header_box .header_xinwen a {
+  .header_box .header_xinwen {
     padding-right: 750px;
     color: #888888; }
   .header_box .header_swsy a {
@@ -71,13 +69,11 @@
     display: inline-block;
     padding-right: 10px;
     vertical-align: top; }
-  .daohang_box .daohang_news_span a {
+  .daohang_box .daohang_news_span span {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
-  .daohang_box .daohang_news_span a:hover {
-    color: deepskyblue; }
   .daohang_box .daohang_news li {
     display: inline-block; }
   .daohang_box .daohang_news li a {
@@ -91,7 +87,7 @@
     opacity: 0.5;
     margin: 0 6px; }
   .daohang_box .daohang_news a:hover {
-    color: deepskyblue; }
+    color: skyblue; }
   .daohang_box .daohang_zhengg {
     display: inline-block;
     width: 110px;
@@ -103,20 +99,18 @@
     padding-right: 13px;
     vertical-align: top;
     margin-left: 14px; }
-  .daohang_box .daohang_zhengg_span a {
+  .daohang_box .daohang_zhengg_span span {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
-  .daohang_box .daohang_zhengg_span a:hover {
-    color: deepskyblue; }
   .daohang_box .daohang_zhengg li {
     display: inline-block; }
   .daohang_box .daohang_zhengg li a {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_zhengg a:hover {
-    color: deepskyblue; }
+    color: skyblue; }
   .daohang_box .daohang_yingyuan {
     display: inline-block;
     width: 110px;
@@ -130,20 +124,18 @@
     padding-right: 13px;
     vertical-align: top;
     margin-left: 14px; }
-  .daohang_box .daohang_yingyuan_span a {
+  .daohang_box .daohang_yingyuan_span span {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
-  .daohang_box .daohang_yingyuan_span a:hover {
-    color: deepskyblue; }
   .daohang_box .daohang_yingyuan li {
     display: inline-block; }
   .daohang_box .daohang_yingyuan li a {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_yingyuan a:hover {
-    color: deepskyblue; }
+    color: skyblue; }
   .daohang_box .daohang_yinyue {
     display: inline-block;
     width: 100px;
@@ -155,20 +147,18 @@
     padding-right: 13px;
     vertical-align: top;
     margin-left: 14px; }
-  .daohang_box .daohang_yinyue_span a {
+  .daohang_box .daohang_yinyue_span span {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
-  .daohang_box .daohang_yinyue_span a:hover {
-    color: deepskyblue; }
   .daohang_box .daohang_yinyue li {
     display: inline-block; }
   .daohang_box .daohang_yinyue li a {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_yinyue a:hover {
-    color: deepskyblue; }
+    color: skyblue; }
   .daohang_box .daohang_xinli {
     display: inline-block;
     width: 120px;
@@ -180,20 +170,18 @@
     padding-right: 13px;
     vertical-align: top;
     margin-left: 14px; }
-  .daohang_box .daohang_xinli_span a {
+  .daohang_box .daohang_xinli_span span {
     display: inline-block;
     font-size: 12px;
     color: white;
     font-weight: bold; }
-  .daohang_box .daohang_xinli_span a:hover {
-    color: deepskyblue; }
   .daohang_box .daohang_xinli li {
     display: inline-block; }
   .daohang_box .daohang_xinli li a {
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_xinli a:hover {
-    color: deepskyblue; }
+    color: skyblue; }
   .daohang_box .daohang_fengcai li:first-of-type {
     text-align: left;
     vertical-align: top;
@@ -211,7 +199,7 @@
     font-size: 12px;
     color: white; }
   .daohang_box .daohang_fengcai a:hover {
-    color: deepskyblue; }
+    color: skyblue; }
 
 .neirong_time {
   border: 1px solid #DDDDDD;

@@ -18,30 +18,34 @@
 }
 .whdgyyx_shangbian_huise{
     width: 1200px;
-    height: 100px;
+//  height: 80px;
     margin: 0 auto;
     background: #d4d2e0;
-    p:nth-child(1){
-        line-height: 100px;
-        font-size: 28px;
-        font-family: "微软雅黑";
-        color: #cf1f3f;
-    }
-    p:nth-child(7){
-        line-height: 100px;
-        font-family: "微软雅黑";
-        background: red;
-        padding: 0 30px;
-        a{
-            color: white;
-        }
-    }
     p{
         display: inline-block;
-        margin: 0 20px;
-        line-height: 100px;
+    }
+    .whdgy_wz{
+        font-family: "微软雅黑";
+        color: red;
+        font-size: 28px;
+    }
+    .whdgy_daohang_box{
+        display: inline-block;
+        line-height: 80px;
         font-family: "微软雅黑";
         padding: 0 30px;
+        p{
+            width: 100px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            &:hover{
+                background: red;
+                a{
+                    color: white;
+                }
+            }
+        }
         a{
             color: black;
             &:hover{
@@ -54,6 +58,12 @@
 .sysp_box{
     display: inline-block;
     margin-left: 80px;
+    p{
+        
+        a{
+            color: black;
+        }
+    }
 }
 .quanbuyouxi_box{
     width: 1200px;

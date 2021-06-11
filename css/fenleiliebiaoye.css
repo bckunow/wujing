@@ -14,12 +14,18 @@
   width: 1200px; }
   .xzjd_bigbox .xzjd_box p {
     display: inline-block;
-    line-height: 20px;
     margin: 20px 0 10px 20px;
     font-size: 14px;
     font-family: "微软雅黑"; }
     .xzjd_bigbox .xzjd_box p a {
+      width: 20px;
       color: black; }
+      .xzjd_bigbox .xzjd_box p a:hover {
+        color: black;
+        background: red; }
+      .xzjd_bigbox .xzjd_box p a:hover:first-child {
+        color: black;
+        background: red; }
   .xzjd_bigbox .xzjd_box p:nth-child(2) {
     width: 50px;
     height: 25px;
