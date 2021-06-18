@@ -11,10 +11,14 @@
         font-size: 14px;
         line-height: 36px;
         color: #c0c0c0; }
-      .web header .top_white .right {
+      .web header .top_white .right div {
+        display: inline-block; }
+      .web header .top_white .right a {
         font-size: 14px;
         line-height: 36px;
         color: #c0c0c0; }
+      .web header .top_white .right a:hover {
+        color: red; }
     .web header .top_blue {
       height: 85px;
       background: #0074c6; }
